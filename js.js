@@ -2,7 +2,7 @@ var rockPosition = -500;
 var rockMovement = -2;
 let correctActiveNavbar = () => {
    let locations = {
-      "index.html": "Home",
+      "": "Home",
       "menu.html": "Menu",
       "checkout.html": "Checkout",
       "news.html": "News",
