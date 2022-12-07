@@ -1,0 +1,147 @@
+body {
+  background:linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+h1 {
+   color: blue;
+   text-align: center;
+}
+.navbar {
+   z-index: 10;
+   background:linear-gradient(
+        0deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.navbar a {
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+}
+
+.navbar img {
+   height:30px;
+   float: right;
+   text-align: center;
+   padding: 0px 16px;
+}
+.navbar a:hover{
+   color: black;
+   background-color: orange;
+}
+.navbar a.active{
+   color: blue;
+   background-color: green;
+}
+.bandicam{
+   z-index: 9;
+   overflow: hidden;
+   position: fixed;
+   top: 50;
+   pointer-events: none;
+   
+}
+.ipAdress{
+   overflow: hidden;
+   position: fixed;
+   top: 40;
+   font-size: 32px;
+}
+section{
+   top: 100px;
+   position: relative;
+   width: 100%;
+   min-height: 100vh;
+}
+.rock{
+   z-index: 8;
+   position: fixed;
+   left: -100px;
+}
+.centeredText {
+   text-align: center;
+}
+.leftImg {
+   float: left;
+}
+.rightImg {
+   float: right;
+}
+.resizeImg {
+   width: 200px;
+}
+.dogImage1 {
+   top: -100;
+   width: 100%
+}
+.homeTitle{
+   background-image: url("./img/image50.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 200px;
+   min-height: 100vh;
+   text-align: center;
+}
+.homeTitle h1{
+   font-size: 45px;
+}
+.reviews{
+   font-size: 30px;
+   text-align:center;
+}
+.foodImg{
+   height:200px;
+}
+.foodItems{
+   background-image: url("./img/image23.jpg");
+   background-position: center;
+}
+.foodItems h1{
+   font-size: 25px;
+}
+.foodItems p{
+   color:blueviolet;
+   font-size: 20px;
+}
+.menuDownload{
+   z-index: 5;
+   background-image: url("./img/menu.png");
+}
+.menuDownload h1{
+   font-size: 32;
+}
+.checkoutPage {
+   background-image: url("./img/you-mee-1-1583839235.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+.collem{
+   width:50%;
+}
