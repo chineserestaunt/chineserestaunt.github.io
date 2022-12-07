@@ -83,7 +83,7 @@ section{
 .rock{
    z-index: 8;
    position: fixed;
-   left: -100px;
+   left: -500px;
 }
 .centeredText {
    text-align: center;
