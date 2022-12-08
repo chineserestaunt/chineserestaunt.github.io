@@ -6,7 +6,8 @@ let correctActiveNavbar = () => {
       "menu.html": "Menu",
       "checkout.html": "Checkout",
       "news.html": "News",
-      "about.html": "About"
+      "about.html": "About",
+      "index.html": "Home"
    };
    let currentLocation = window.location.href;
    currentLocation = currentLocation.split("/").pop();
